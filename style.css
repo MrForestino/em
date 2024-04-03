@@ -10,7 +10,9 @@ body{
 	font-weight: bold;
 	background-color: #24263b;
 }
-
+.wrapper{
+	display: none;
+}
 .menu li a{
 	text-decoration: none;
 	color: whitesmoke;
@@ -51,6 +53,9 @@ li:not(:last-child){
 }
 
 @media screen and (max-width: 768px) { 
+	.wrapper{
+		display: block;
+	}
 	.menu{
 		width: 0;
     overflow: hidden;
